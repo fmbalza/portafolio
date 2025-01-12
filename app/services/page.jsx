@@ -14,7 +14,7 @@ const services =[
   {
     num: '02',
     tittle: 'Desarrollo de Aplicaciones Web (SPA y PWA)',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti id laborum illum quas quo qui quisquam ratione ea culpa. Quo modi ratione praesentium, beatae rerum pariatur inventore distinctio non?',
+    description: 'Nuestras SPA proporcionan una experiencia de usuario fluida y rápida al cargar dinámicamente contenido en una sola página, eliminando la necesidad de recargas completas. Esto no solo mejora el rendimiento, sino que también ofrece una navegación más intuitiva y reactiva para los usuarios.',
     href:""
   },
   {

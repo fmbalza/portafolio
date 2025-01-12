@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+
 import {
   Select,
   SelectContent,
@@ -50,18 +51,18 @@ const Contact = () => {
               </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <Input type="firstname" placeholder="Firstname"></Input>
-                  <Input type="lastname" placeholder="Lastname"></Input>
-                  <Input type="email" placeholder="Email adress"></Input>
-                  <Input type="phone" placeholder="Phone number"></Input>
+                  <Input type="firstname" placeholder="Nombre"></Input>
+                  <Input type="lastname" placeholder="Apellido"></Input>
+                  <Input type="email" placeholder="Email "></Input>
+                  <Input type="phone" placeholder="Telefono"></Input>
                 </div>
                 <Select>
                   <SelectTrigger className>
-                    <SelectValue placeholder="Select a service" />
+                    <SelectValue placeholder="Selecciona un Servicio" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectGroup>
-                      <SelectLabel>Select a service</SelectLabel>
+                      <SelectLabel>Selecciona un Servicio</SelectLabel>
                       <SelectItem value="est"> Desarrollo de UI-UX</SelectItem>
                       <SelectItem value="cst"> Desarrollo de Aplicaciones Web (SPA y PWA)</SelectItem>
                       <SelectItem value="mst"> Integración con APIs y Servicios de Backend</SelectItem>
@@ -73,7 +74,7 @@ const Contact = () => {
                   placeholder="Type your message here."
                 />
                 <Button size="md" className="max-w-40">
-                  Send message
+                  Enviar mensaje
                 </Button>
             </form>
           </div>
