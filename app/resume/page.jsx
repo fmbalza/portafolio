@@ -239,8 +239,10 @@ const Resume = () => {
                     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                       {skills.items.map((skill, index) => {
                         return(
-                          <ScrollArea>
-                            <li key={index}>
+                          
+                            <li 
+                            key={index}
+                            >
                               <TooltipProvider delayDuration={100}>
                                 <Tooltip>
                                   <TooltipTrigger className="w-full h-[100px] bg-[#232329] rounded-xl flex justify-center items-center group">
@@ -252,7 +254,7 @@ const Resume = () => {
                                 </Tooltip>
                               </TooltipProvider>
                             </li>
-                          </ScrollArea>
+                        
                         )
                       })}
                     </ul>
